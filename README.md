@@ -185,8 +185,7 @@ You may follow this structure or create your own that best conveys your work.
 
 ## Late Submissions
 
-- If you need an extension, email the professor **at least 5 days before** the deadline
-- If you are ill or facing circumstances beyond your control, email **before** the deadline to discuss arrangements
+- If you need an extension, email the professor **at least 72 hours before** the deadline
 - Unexcused late submissions receive a zero
 
 ---
@@ -196,7 +195,7 @@ You may follow this structure or create your own that best conveys your work.
 **Can I use copyrighted/trademarked material?**
 Yes. This is an educational exercise, not commercial work. You may include brand logos in your designs.
 
-**Can I use lorem ipsum text?**
+**Can I use Lorem Ipsum text? ****
 Yes, for body copy. However, use real text for headlines, CTAs, and any text where meaning matters.
 
 **Do I need to include sketches or early drafts?**
