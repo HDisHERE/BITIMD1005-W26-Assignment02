@@ -195,7 +195,7 @@ You may follow this structure or create your own that best conveys your work.
 **Can I use copyrighted/trademarked material?**
 Yes. This is an educational exercise, not commercial work. You may include brand logos in your designs.
 
-**Can I use Lorem Ipsum text? ****
+**Can I use Lorem Ipsum text? **
 Yes, for body copy. However, use real text for headlines, CTAs, and any text where meaning matters.
 
 **Do I need to include sketches or early drafts?**
