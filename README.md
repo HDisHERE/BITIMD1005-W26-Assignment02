@@ -131,7 +131,7 @@ Your report must meet the following requirements:
 
 This assignment is worth 15% of your final grade and marked out of 100.
 
-| Criteria | Marks | What Excellence Looks Like |
+| Criteria | Marks | Rationale |
 |----------|-------|----------------------------|
 | **Problem Definition** | 30% | Clear problem statement using the provided formula. Demonstrates understanding of the client, their goals, and how they define success. Shows evidence of research or logical assumptions about the user's needs and pain points. |
 | **User Research & Tasks** | 20% | Describes who the users are, what problems they face (in context of the client), and what tasks they want to accomplish on the site. Shows empathy and insight, not just surface-level assumptions. |
