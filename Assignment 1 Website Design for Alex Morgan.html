@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-<link rel="stylesheet" href="style_v0.1.css">
+</head>
+<body class="bg-slate-50">
+    <!-- Background Image with Gradient Overlay -->
+    <div class="fixed inset-0 z-0">
+        <img 
+            src="https://images.unsplash.com/photo-1595411425732-e69c1abe2763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGdlb21ldHJpYyUyMHBhdHRlcm58ZW58MXx8fHwxNzY5MDg1Nzk1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            alt="Background"
+            class="w-full h-full object-cover opacity-30"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-white via-white/50 to-black/80"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative z-10">
+        <!-- Navigation Bar -->
+        <nav class="bg-white/90 backdrop-blur-sm border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex-shrink-0">
+                        <h2 class="text-2xl font-bold gradient-text">
+                            Alex Morgan
+                        </h2>
+                    </div>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#projects" class="text-slate-700 hover:text-blue-600 transition-colors">
+                            Projects
+                        </a>
+                        <a href="#about" class="text-slate-700 hover:text-blue-600 transition-colors">
+                            About Me
+                        </a>
+                        <a href="#contact" class="text-slate-700 hover:text-blue-600 transition-colors">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="text-center mb-12">
+                <h1 class="text-5xl md:text-6xl font-bold text-slate-900 mb-4">
+                    Creative Developer & Designer
+                </h1>
+                <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+                    Building beautiful, functional digital experiences that make a difference
+                </p>
+            </div>
+
+            <!-- About Me Section -->
+            <div id="about" class="mb-20">
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg p-8 md:p-12 border border-slate-200">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                        <!-- Profile Image -->
+                        <div class="flex justify-center">
+                            <div class="relative">
+                                <div class="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-xl">
+                                    <img 
+                                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBlcnNvbnxlbnwxfHx8fDE3MzY1MTU1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                                        alt="Alex Morgan"
+                                        class="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl -z-10"></div>
+                            </div>
+                        </div>
+
+                        <!-- About Content -->
+                        <div>
+                            <h2 class="text-4xl font-bold text-slate-900 mb-4">
+                                About Me
+                            </h2>
+                            <p class="text-slate-700 text-lg leading-relaxed mb-6">
+                                Hi, I'm Alex Morgan, a passionate developer and designer with over 4 years of experience creating innovative digital solutions. I specialize in building responsive applications that combine beautiful design with powerful functionality.
+                            </p>
+                            <p class="text-slate-700 text-lg leading-relaxed mb-8">
+                                My journey in tech began with a curiosity for how things work and evolved into a career where I get to solve complex problems and bring ideas to life. I believe in writing clean, maintainable code and creating user experiences that truly make a difference.
+                            </p>
+
+                            <!-- Skills -->
+                            <div class="mb-8">
+                                <h3 class="text-xl font-bold text-slate-900 mb-4">Core Skills</h3>
+                                <div class="flex flex-wrap gap-3">
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">Unity</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">TypeScript</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">Node.js</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">Python</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">Tailwind CSS</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">UI/UX Design</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">GraphQL</span>
+                                    <span class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg border border-blue-200 font-medium">AWS</span>
+                                </div>
+                            </div>
+
+                            <!-- Stats -->
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="text-center p-4 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg">
+                                    <div class="text-3xl font-bold text-blue-600">20+</div>
+                                    <div class="text-sm text-slate-600 mt-1">Projects</div>
+                                </div>
+                                <div class="text-center p-4 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg">
+                                    <div class="text-3xl font-bold text-purple-600">4+</div>
+                                    <div class="text-sm text-slate-600 mt-1">Years Exp</div>
+                                </div>
+                                <div class="text-center p-4 bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg">
+                                    <div class="text-3xl font-bold text-pink-600">10+</div>
+                                    <div class="text-sm text-slate-600 mt-1">Clients</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Learn More Button -->
+                    <div class="flex justify-end mt-6">
+                        <a 
+                            href="/detailed-bio" 
+                            class="inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-md hover:shadow-lg text-sm font-medium"
+                        >
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="max-w-2xl mx-auto mb-12">
+                <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search projects by name, description, or category..."
+                        class="w-full pl-12 pr-4 py-4 bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm"
+                    />
+                </div>
+            </div>
+
+            <!-- Projects Library -->
+            <div id="projects">
+                <h2 class="text-3xl font-bold text-slate-900 mb-8">
+                    Featured Projects (<span id="projectCount">9</span>)
+                </h2>
+                <div id="projectGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Projects will be dynamically inserted here -->
+                </div>
+                <div id="noResults" class="text-center py-12 hidden">
+                    <p class="text-slate-500 text-lg">No projects found matching your search.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="contact" class="bg-slate-900/95 backdrop-blur-sm border-t border-slate-700 mt-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Contact Info -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">Get In Touch</h3>
+                        <div class="space-y-3">
+                            <a href="mailto:alex.morgan@example.com" class="flex items-center text-slate-300 hover:text-blue-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                alex.morgan@example.com
+                            </a>
+                            <a href="tel:+1234567890" class="flex items-center text-slate-300 hover:text-blue-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                +1 (234) 567-890
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">Connect</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- About -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">About</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Passionate about creating innovative digital solutions that combine beautiful design with powerful functionality.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+                    <p class="text-slate-400 text-sm">
+                        &copy; <span id="currentYear"></span> Alex Morgan. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Project data
+        const projects = [
+            {
+                id: '1',
+                name: 'E-Commerce Platform',
+                description: 'Full-stack online shopping with payment integration.',
+                category: 'Web Development',
+                image: 'https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZyUyMGVjb21tZXJjZXxlbnwxfHx8fDE3NjkwOTk4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '2',
+                name: 'Task Management App',
+                description: 'Collaborative task tracking with real-time updates.',
+                category: 'Productivity',
+                image: 'https://images.unsplash.com/photo-1699570044128-b61ef113b72e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXNrJTIwbWFuYWdlbWVudCUyMHByb2R1Y3Rpdml0eXxlbnwxfHx8fDE3NjkxMjk4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '3',
+                name: 'Weather Dashboard',
+                description: 'Interactive forecast app with data visualizations.',
+                category: 'Data Visualization',
+                image: 'https://images.unsplash.com/photo-1766203695519-f5b060b72d54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwZm9yZWNhc3QlMjBza3l8ZW58MXx8fHwxNzY5MDQ0ODE3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '4',
+                name: 'Fitness Tracker',
+                description: 'Track workouts, nutrition, and health metrics.',
+                category: 'Health & Fitness',
+                image: 'https://images.unsplash.com/photo-1584827386916-b5351d3ba34b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwd29ya291dCUyMGd5bXxlbnwxfHx8fDE3NjkwMDM3NDV8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '5',
+                name: 'Recipe Finder',
+                description: 'Discover recipes with smart ingredient search.',
+                category: 'Lifestyle',
+                image: 'https://images.unsplash.com/photo-1635661988046-306631057df3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwY29va2luZyUyMHJlY2lwZXN8ZW58MXx8fHwxNzY5MTI5ODE3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '6',
+                name: 'Game Design',
+                description: 'Game design for creative professionals.',
+                category: 'Game',
+                image: 'https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3NjkxMjQ0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '7',
+                name: 'Chat Application',
+                description: 'Real-time messaging with file sharing and encryption.',
+                category: 'Communication',
+                image: 'https://images.unsplash.com/photo-1516210938721-0703012a297a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZXNzYWdpbmclMjBjb21tdW5pY2F0aW9uJTIwcGhvbmV8ZW58MXx8fHwxNzY5MTI5ODE4fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '8',
+                name: 'Music Player',
+                description: 'Sleek music streaming with playlist management.',
+                category: 'Entertainment',
+                image: 'https://images.unsplash.com/photo-1572119244337-bcb4aae995af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGhlYWRwaG9uZXMlMjBhdWRpb3xlbnwxfHx8fDE3NjkxMjk4MTh8MA&ixlib=rb-4.1.0&q=80&w=1080'
+            },
+            {
+                id: '9',
+                name: 'Budget Planner',
+                description: 'Track expenses and analyze spending habits.',
+                category: 'Finance',
+                image: 'https://images.unsplash.com/photo-1764407395696-495d7fb7fc71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwbW9uZXklMjBidWRnZXR8ZW58MXx8fHwxNzY5MTI5ODE5fDA&ixlib=rb-4.1.0&q=80&w=1080'
+            }
+        ];
+
+        // Function to create project card HTML
+        function createProjectCard(project) {
+            return `
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-slate-200 hover:border-blue-300 cursor-pointer group overflow-hidden">
+                    <div class="relative w-full h-48 overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200">
+                        <img 
+                            src="${project.image}" 
+                            alt="${project.name}"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                            ${project.category}
+                        </span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 mt-3 group-hover:text-blue-600 transition-colors">
+                            ${project.name}
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            ${project.description}
+                        </p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to render projects
+        function renderProjects(filteredProjects) {
+            const projectGrid = document.getElementById('projectGrid');
+            const noResults = document.getElementById('noResults');
+            const projectCount = document.getElementById('projectCount');
+
+            if (filteredProjects.length === 0) {
+                projectGrid.innerHTML = '';
+                noResults.classList.remove('hidden');
+                projectCount.textContent = '0';
+            } else {
+                noResults.classList.add('hidden');
+                projectGrid.innerHTML = filteredProjects.map(project => createProjectCard(project)).join('');
+                projectCount.textContent = filteredProjects.length;
+            }
+        }
+
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = projects.filter(project => 
+                project.name.toLowerCase().includes(query) ||
+                project.description.toLowerCase().includes(query) ||
+                project.category.toLowerCase().includes(query)
+            );
+            renderProjects(filtered);
+        });
+
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Initial render
+        renderProjects(projects);
+    </script>
+</body>
+</html>
