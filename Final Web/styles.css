@@ -112,11 +112,16 @@ a {
     font-weight: bold;
     color: #0f172a;
     margin-bottom: 1rem;
+
+    background: linear-gradient(to right, #F25912, #5C3E94);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-subtitle {
     font-size: 1.25rem;
-    color: #475569;
+    color: #5C3E94;
     max-width: 42rem;
     margin: 0 auto;
 }
@@ -148,16 +153,14 @@ a {
 
 .about-card {
     background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
     border-radius: 1rem;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(33, 24, 50, 0.3);
     padding: 3rem;
     border: 1px solid #e2e8f0;
 }
 
 .about-grid {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 3rem;
     align-items: center;
     margin-bottom: 2rem;
@@ -178,7 +181,7 @@ a {
     width: 20rem;
     height: 20rem;
     border-radius: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #F25912 0%, #5C3E94 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,7 +199,7 @@ a {
 }
 
 .about-text {
-    color: #475569;
+    color: #211832;
     font-size: 1.125rem;
     line-height: 1.75;
     margin-bottom: 1.5rem;
@@ -205,8 +208,16 @@ a {
 .subsection-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #0f172a;
+    color: #211832;
     margin-bottom: 1rem;
+}
+
+.highlight{
+    font-size: 4rem;
+    background: linear-gradient(to right, #F25912, #5C3E94);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Skills */
@@ -222,8 +233,8 @@ a {
 
 .skill-tag {
     padding: 0.5rem 1rem;
-    background: linear-gradient(to right, #eff6ff, #faf5ff);
-    color: #475569;
+    background: linear-gradient(to right, #f8e5de, #e7dff8);
+    color: #412B6B;
     border-radius: 0.5rem;
     border: 1px solid #bfdbfe;
     font-weight: 500;
@@ -242,25 +253,25 @@ a {
     border-radius: 0.5rem;
 }
 
-.stat-blue {
-    background: linear-gradient(to bottom right, #dbeafe, #bfdbfe);
+.stat-orange {
+    background: linear-gradient(to bottom right, #ffdda2, #ffa479);
 }
 
 .stat-purple {
-    background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);
+    background: linear-gradient(to bottom right, #dab6ff, #ab7dff);
 }
 
 .stat-pink {
-    background: linear-gradient(to bottom right, #fce7f3, #fbcfe8);
+    background: linear-gradient(to bottom right, #ffb8e0, #ff36a8);
 }
 
 .stat-number {
-    font-size: 1.875rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
-.stat-blue .stat-number {
-    color: #2563eb;
+.stat-orange .stat-number {
+    color: #ce5924;
 }
 
 .stat-purple .stat-number {
@@ -268,12 +279,12 @@ a {
 }
 
 .stat-pink .stat-number {
-    color: #ec4899;
+    color: #a7346d;
 }
 
 .stat-label {
-    font-size: 0.875rem;
-    color: #475569;
+    font-size:1rem;
+    color: #211832;
     margin-top: 0.25rem;
 }
 
@@ -293,13 +304,13 @@ a {
 }
 
 .btn-primary {
-    background: linear-gradient(to right, #2563eb, #9333ea);
+    background: linear-gradient(to right, #F25912, #5C3E94);
     color: white;
-    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 4px 6px rgba(33, 24, 50, 0.3);
 }
 
 .btn-primary:hover {
-    box-shadow: 0 10px 15px rgba(37, 99, 235, 0.4);
+    box-shadow: 0 10px 15px rgba(33, 24, 50, 0.4);
     transform: translateY(-2px);
 }
 
@@ -576,7 +587,6 @@ a {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 2rem;
     padding: 3rem 0;
 }
@@ -589,7 +599,7 @@ a {
 
 .footer-title {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -630,7 +640,7 @@ a {
 }
 
 .footer-bottom {
-    border-top: 1px solid #334155;
+    border-top: 2px solid #5C3E94;
     padding: 2rem 0;
     text-align: center;
 }
