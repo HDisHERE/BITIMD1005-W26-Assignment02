@@ -1,0 +1,89 @@
+/* BASE STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4911cb;
+  margin: 40px 0 15px;
+  border-bottom: 2px solid #3405a3;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #079f0c;
+  margin: 25px 0 10px;
+}
+
+section {
+  background: rgb(230, 230, 230);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* NAVIGATION STYLES */
+
+nav{
+  background: #F25912;
+  box-shadow: 0 4px 12px rgba(211, 89, 18, 0.3);
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+nav .Navbar{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 20px;
+}
+
+.Logo{
+  justify-content: flex-start;
+}
+
+.Otherlinks{
+  margin-left: auto;
+  display:flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+/*FOOTER STYLES*/
+
+footer{
+  background: #5C3E94;
+  box-shadow: 0 4px 12px rgba(211, 89, 18, 0.3);
+  transition: background-color 0.3s ease;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.ContactInfo{
+  display: flex;
+  align-items:flex-start;
+  gap: 10px;
+}
+
+.ContactInfo .icon{
+  width: 25px;
+  height: 25px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+}
