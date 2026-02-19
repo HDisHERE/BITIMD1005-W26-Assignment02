@@ -465,13 +465,13 @@ a {
 }
 
 .back-link {
-    color: #2563eb;
+    color: #211832;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .back-link:hover {
-    color: #1d4ed8;
+    color: #9a85c2;
 }
 
 .project-detail-section {
